@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll */
+
+
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* navbar height */
+    overflow-y: scroll; 
+}
+body {
+  @apply bg-white text-black dark:bg-slate-900 dark:text-white;
+   overflow-x: hidden; 
+}
